@@ -1,0 +1,22 @@
+.card-container{width: 1024px; margin: 10px auto;}
+
+.card{background: #eee; border: #ccc solid 1px; width: 300px;
+     box-sizing: border-box;  margin-left: 20px; float: left; margin-top: 20px; overflow: hidden; height: 400px;}
+.card-body{padding: 10px;}
+.card-number{border-radius: 50%; width: 30px;
+     padding: 6px 10px; border:#cdcdcd solid 1px;}
+
+.author{padding: 10px; background: #ddd; margin:10px;}     
+
+.card img{width: 93%; object-fit: cover; padding: 10px; border-radius: 20px;}
+
+.navBarTop{width: 800px; margin:40px auto; background: brown; padding:10px 0; text-align: center; border-radius:50px;}
+.navBarTop ul{list-style: none; display: flex; justify-content: space-around; margin: 0; padding:0;}
+.navBarTop ul li{color: #fff; padding: 5px;}
+.navBarTop ul li:hover{border-bottom: #cdcdcd solid 1px; border-radius: 20px;  animation: morph 3s infinite alternate;}
+
+@keyframes morph {
+     0% { background-color: purple; }
+     50% { border-bottom:skyblue dotted 2px; color:#000; }
+     100% { background-color:pink; }
+   }
